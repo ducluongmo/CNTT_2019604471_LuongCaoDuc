@@ -42,7 +42,7 @@
                     <!--	///*///======    End article  ========= //*/// -->
                 </div>
                 <aside class="col-left sidebar col-md-3 col-sm-4 col-xs-12 col-sm-pull-8 col-md-pull-9">
-                    <div class="side-banner"><img src="{{ asset('frontend/images/side-banner.jpg') }}" alt="banner"></div>
+                    <div class="side-banner"><img src="{{ asset('frontend/images/side-banner-1.png') }}" alt="banner"></div>
                     <div class="block block-account">
                     <div class="block-title">Tài khoản của tôi</div>
                          <div class="block-content">
@@ -63,27 +63,8 @@
                         </div>
                     </div>
                     <div class="khối khối-so sánh">
-                         <div class="block-title "><span>So sánh sản phẩm (2)</span></div>
-                         <div class="block-content">
-                             <ol id="compare-items">
-                                 <li class="item lẻ">
-                                     <input type="hidden" value="2173" class="compare-item-id">
-                                     <a class="btn-remove1" title="Xóa mục này" href="#"></a> <a href="#"
-                                         class="product-name"> Ghế sofa có đệm bọc Polyester viền mép</a>
-                                 </li>
-                                 <li class="item last even">
-                                     <input type="hidden" value="2174" class="so-item-id">
-                                     <a class="btn-remove1" title="Xóa mục này" href="#"></a> <a href="#"
-                                         class="product-name"> Ghế sofa có đệm bọc Down-Blend Edge</a>
-                                 </li>
-                             </ol>
-                             <div class="ajax-checkout">
-                                 <button type="submit" title="Gửi"
-                                     class="button button-compare"><span>So sánh</span></button>
-                                 <button type="submit" title="Gửi"
-                                     class="button button-clear"><span>Xóa</span></button>
-                            </div>
-                        </div>
+                         <div class="block-title "><span>So sánh sản phẩm</span></div>
+                         
                     </div>
                 </aside>
             </div>
